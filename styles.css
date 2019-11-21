@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html,body{
+  font-family: 'Poppings', sans-serif;
+  width:375px;
+  height: auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  
+  margin-top:4rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container{
+  padding:2rem;
+  
+}
+.container-item{
+  width:80vw;
+  height:12rem;
+  box-shadow: 0 0 20px #E1E8F0;
+  border-top-style: solid;
+  margin-bottom:2rem;
+  padding:1.4rem;
+
+ 
+  
+}
+#main, #sec-main{
+  font-size:1.5rem;
+  margin-bottom: .8rem;
+}
+.text-light{
+  font-weight: 200;
+  color:gray
+}
+.text-bold{
+  color:hsl(234, 12%, 34%)
+}
+#text-body{
+margin-bottom: 2rem;
+line-height:1.5
+}
+#green{
+  border-top-color:hsl(180, 62%, 55%);
+ 
+}
+#red{
+  border-top-color: hsl(0, 78%, 62%) ;
+}
+#yellow{
+  border-top-color: hsl(34, 97%, 64%);
+}
+#blue{
+  border-top-color: hsl(212, 86%, 64%);
+}
+.container-heading{
+  color:hsl(234, 12%, 34%);
+  font-size:1.3rem;
+  margin-bottom:.5rem
+}
+.container-text{
+  color:gray;
+  font-weight:200;
+  font-size:.8rem;
+  margin-bottom:.5rem;
+  line-height:2;
+}
+.container-svg{
+  float:right;
+  margin-bottom:1rem;
+  
+}
+
+@media (min-width:400px){
+  html,body{
+    width:100vw;
+    height:100vh;
+  }
+  #main,#sec-main, #text-body{
+    text-align:center;
+  }
+  .container{
+    margin:0 auto;
+    width:90vw;
+    position: relative;
+  }
+  .container-item{
+    width:17rem;
+    height:15rem;
+  }
+  #green,#blue{
+    position:absolute;
+    
+  }
+  #blue{
+    right: 10rem;
+  bottom: 11rem;
+  }
+  #green{
+    left: 10rem;
+  bottom: 11rem;
+  } 
+  #red, #yellow{
+  margin-left:30rem;
+  }
+  #red{
+    margin-bottom:2rem;
+  }
+
+
+  
+  
+
+
+}
+
+
+
+
+
